@@ -19,8 +19,7 @@
 
 ## 💡 Usage
 Simply embed a WordPress video as usual:
-```html
-[video src="https://example.com/video.mp4"]```
+`[video src="https://example.com/video.mp4"]`
 The plugin will automatically apply lazy loading to all videos.
 
 ## 📄 License
