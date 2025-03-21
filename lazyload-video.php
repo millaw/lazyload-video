@@ -32,6 +32,6 @@ function modify_video_lazyload($html) {
     $html = preg_replace('/<video(.*?)src=/', '<video\1data-src=', $html);
     $html = preg_replace('/<source(.*?)src=/', '<source\1data-src=', $html);
 
-    return $html;
+    return wp_kses_post($html); // Sanitize the HTML
 }
 add_filter('wp_video_shortcode', 'modify_video_lazyload');
