@@ -18,9 +18,7 @@
 - A **fallback** ensures videos load even in older browsers.  
 
 ## 💡 Usage
-Simply embed a WordPress video as usual:
-`[video src="https://example.com/video.mp4"]`
-The plugin will automatically apply lazy loading to all videos.
+Simply embed a WordPress video as usual: `[video src="https://example.com/video.mp4"]`. The plugin will automatically apply lazy loading to all videos.
 
 ## 📄 License
 This plugin is licensed under the GPL-2.0 license.
